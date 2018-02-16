@@ -1,0 +1,12 @@
+
+npm install --save-dev @angular/cli@latest -> actualizar alngular cli
+
+ng g c home -> crear component
+
+ng g c pages/about -is --spec=false -> sin css y el archivo spect
+
+ng g c pages/about -is --spec=false --flat -> no quiere crearlos en una carpeta
+
+ng g s services/usuario --spec=false -> generar un service
+
+ng g g guards/auth --spec=false -> generar un guard
