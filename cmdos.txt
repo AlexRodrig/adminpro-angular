@@ -9,4 +9,4 @@ ng g c pages/about -is --spec=false --flat -> no quiere crearlos en una carpeta
 
 ng g s services/usuario --spec=false -> generar un service
 
-ng g g guards/auth --spec=false -> generar un guard
+ng g g guards/auth --spec=false -> generar un guard 
