@@ -10,3 +10,20 @@ ng g c pages/about -is --spec=false --flat -> no quiere crearlos en una carpeta
 ng g s services/usuario --spec=false -> generar un service
 
 ng g g guards/auth --spec=false -> generar un guard 
+
+
+git
+
+git status
+git add .
+git commit -m ""
+git push origin master
+
+git tags
+
+git tag
+git tag -a v1.3.0 -m ""
+git push --tags
+
+
+borrar projecto =>	rm -rf name_project
