@@ -4,7 +4,7 @@ import { PAGES_ROUTES } from './../pages/pages.routes';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, Validators, FormControl } from '@angular/forms';
 
-import * as swal from 'sweetalert';
+import swal from 'sweetalert';
 import { UsuarioService } from '../services/service.index';
 import { Usuario } from '../models/usuario.model';
 
@@ -75,7 +75,7 @@ export class RegisterComponent implements OnInit {
     if (!this.forma.value.condiciones) {
       console.log('Debe de aceptar las condiciones');
 
-      //swal('Importante', 'Debe de aceptar las condiciones', 'warning');
+      swal('Importante', 'Debe de aceptar las condiciones', 'warning');
       return;
     }
 
